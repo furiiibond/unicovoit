@@ -22,10 +22,7 @@ logger.info('Version : ' + version)
 logger.info('MongoDB Url : ' + `mongodb://${mongoUrl}:${mongoPort}/unicovoit`)
 
 // Connect to MongoDB first
-mongoose.connect(`mongodb://${mongoUrl}:${mongoPort}/unicovoit`, {
-    user: process.env.MONGO_USER,
-    pass: process.env.MONGO_PASSWORD,
-})
+mongoose.connect('mongodb+srv://admin:tchBmVN5ji8tY1so@unicovoit.bx7utjo.mongodb.net/?retryWrites=true&w=majority')
 mongoose.connection.once('open', function () {
     logger.success('Mongo connected Successfully')
 }).on('error', function (err) {
