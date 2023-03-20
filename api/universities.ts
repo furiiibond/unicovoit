@@ -10,41 +10,21 @@ export interface University {
  */
 const universities: University[] = [
     {
-        id: 'ubs',
-        name: 'Université Bretagne Sud',
+        id: 'iut-val',
+        name: 'IUT de Valence',
         country: 'France',
-        format: /^[A-Za-z\-]+\.e\d{7}@etud\.univ-ubs\.fr$/
+        format: /^[A-Za-z\-]+\.[A-Za-z\-]+@etu\.univ-grenoble-alpes\.fr$/
     }, {
-        id: 'rennes1',
-        name: 'Université de Rennes 1',
+        id: 'inp-esisar',
+        name: 'ESISAR Valence',
         country: 'France',
-        format: /^[A-Za-z\-]+\.[A-Za-z\-]+@etudiant\.univ-rennes1\.fr$/
+        format: /^[A-Za-z\-]+\.[A-Za-z\-]+@etu\.esisar\.grenoble-inp\.fr$/
     }, {
-        id: 'rennes2',
-        name: 'Université de Rennes 2',
+        id: 'inp',
+        name: 'IAE de Valence',
         country: 'France',
-        format: /^[A-Za-z\-]+\.[A-Za-z\-]+@etudiant\.univ-rennes2\.fr$/
-    }, {
-        id: 'insaRennes',
-        name: 'INSA Rennes',
-        country: 'France',
-        format: /^[A-Za-z\-.\d]+@insa-rennes\.fr$/
-    }, {
-        id: 'univBrest',
-        name: 'Université de Bretagne Occidentale',
-        country: 'France',
-        format: /^[A-Za-z\-]+\.[A-Za-z\-]+@etudiant\.univ-brest\.fr$/
-    }, {
-        id: 'esiea',
-        name: 'ESIEA Paris/Laval',
-        country: 'France',
-        format: /^[A-Za-z\-]+@et\.esiea\.fr$/
-    }, {
-        id: 'sorbonneNouvelle',
-        name: 'Sorbonne Nouvelle - Paris 3',
-        country: 'France',
-        format: /^[\dA-Za-z\-.]+@sorbonne-nouvelle\.fr$/
-    },
+        format: /^[A-Za-z]+\.[A-Za-z]+@univ-grenoble-alpes\.fr$/
+    }
 ]
 
 export default universities

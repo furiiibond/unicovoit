@@ -33,7 +33,7 @@ const originCheck = async (req, res, next) => {
         const token: string = req.header('Authorization')?.replace('Bearer ', '') || ''
         const decoded = jwt.verify(token, VERIFICATION_SECRET)
         logger.info(decoded)
-        req.auth = {...decoded}
+        req.auth = Object.assign({}, decoded)
         next()
     } catch (e) {
         logger.error(e)

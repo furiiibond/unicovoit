@@ -3,9 +3,9 @@ import Locale from './locale_interface'
 export default <Locale>{
     aboutPage: {
         content: [
-            `UniCovoit is a student initiative to encourage carpooling between students.`,
+            `Cova is a student initiative to encourage carpooling between students.`,
             `This service is based on trust between students.
-            Payments are not made via UniCovoit, but directly between the passenger and the driver.`,
+            Payments are not made via Cova, but directly between the passenger and the driver.`,
             `The {termsOfUse} and {privacyPolicy} are available on the website.`,
             `To contact us, please use the {contactForm}.`,
             `Created by {finxol}.`,
@@ -13,7 +13,7 @@ export default <Locale>{
         ],
         thankYouDonors: 'Thank you to the donors',
         makeADonation: 'Make a donation to support the project on',
-        unicovoitIsGreen: "UniCovoit is greener than {cleanerThan}% of the pages tested by",
+        unicovoitIsGreen: "Cova is greener than {cleanerThan}% of the pages tested by",
     },
     activityPage: {
         title: 'My activity',
@@ -34,7 +34,7 @@ export default <Locale>{
         title: 'Book a seat',
         booked: 'Trip booked!',
         requestSent: 'Booking request sent!',
-        warning: `UniCovoit doesn't handle payments online.{0}
+        warning: `Cova doesn't handle payments online.{0}
                 It is up to you to agree on a payment method with the driver.`,
         departure: 'Departure',
         arrival: 'Arrival',
@@ -44,7 +44,7 @@ export default <Locale>{
         sendBooking: 'Send booking request',
         afterConfirmationContactExchanged: 'Once the booking is confirmed, your contact information will be sent to your driver and you will receive theirs.',
     },
-    builtForMobileWarning: 'UniCovoit is optimized for mobile devices. Using a computer may cause performance issues.',
+    builtForMobileWarning: 'Cova is optimized for mobile devices. Using a computer may cause performance issues.',
     chat: {
         recentChats: 'Conversations récentes',
     },
@@ -81,30 +81,30 @@ export default <Locale>{
         title: 'FAQ',
         content: [
             {
-                title: "How does UniCovoit work?",
-                content: `With UniCovoit, you can offer your trips to other students, wether they are long or short.
+                title: "How does Cova work?",
+                content: `With Cova, you can offer your trips to other students, wether they are long or short.
                         You can also search for trips to join.<br>
-                        No commission is taken by UniCovoit.`
+                        No commission is taken by Cova.`
             }, {
                 title: "Are all users students?",
                 content: `Yes, it is required to verify your student status before making a reservation or placing an offer.
                         This verification is done through your student email address.`
             }, {
-                title: "What payment method is used on UniCovoit?",
-                content: `UniCovoit does not handle payments so you need to arrange a payment method with your driver or passenger.`
+                title: "What payment method is used on Cova?",
+                content: `Cova does not handle payments so you need to arrange a payment method with your driver or passenger.`
             }, {
                 title: "How do I contact my driver/passenger?",
-                content: `Each person's contact information will be shared by UniCovoit at the time of booking.`
+                content: `Each person's contact information will be shared by Cova at the time of booking.`
             }, {
                 title: "Can I book more than one seat on a trip?",
-                content: `No. Trips are for students only, so you must have a UniCovoit account and verify your student status before you can book a trip.`
+                content: `No. Trips are for students only, so you must have a Cova account and verify your student status before you can book a trip.`
             }, {
-                title: "How is UniCovoit funded?",
-                content: `UniCovoit does not take any commission on the price of the journey and does not sell any data.
-                        Funding is provided solely through donations. If you wish to support UniCovoit, you can do so on <a href="https://ko-fi.com/unicovoit" target="_blank" rel="noopener noreferrer">Ko-Fi</a>.`
+                title: "How is Cova funded?",
+                content: `Cova does not take any commission on the price of the journey and does not sell any data.
+                        Funding is provided solely through donations. If you wish to support Cova, you can do so on <a href="https://ko-fi.com/cova" target="_blank" rel="noopener noreferrer">Ko-Fi</a>.`
             }, {
                 title: "How do you manage my data?",
-                content: `Trip and user information is stored on UniCovoit servers in Germany. This information isn't shared with third parties.<br>
+                content: `Trip and user information is stored on Cova servers in Germany. This information isn't shared with third parties.<br>
                         Login information (login and password) are handled by Auth0 on European servers.<br>
                         You'll find more information in our <a href='/legal/privacy'>Privacy Policy</a>.`
             }, {
@@ -112,10 +112,10 @@ export default <Locale>{
                 content: "This app was developed by finxol, a student from the IUT in Vannes (Brittany)."
             }, {
                 icon: "mdi-message-processing-outline",
-                title: "How can I reach UniCovoit?",
-                content: `You can send an email to <a href="mailto:support@unicovoit.fr" target="_blank" rel="noopener noreferrer">support@unicovoit.fr</a>,
+                title: "How can I reach Cova?",
+                content: `You can send an email to <a href="mailto:support@cova.fr" target="_blank" rel="noopener noreferrer">support@cova.fr</a>,
                         use the <a href="/contact">contact form</a>,
-                        or contact send us a message on <a href="https://instagram.com/unicovoit" target="_blank" rel="noopener noreferrer">Instagram</a>.`
+                        or contact send us a message on <a href="https://instagram.com/cova" target="_blank" rel="noopener noreferrer">Instagram</a>.`
             }
         ],
     },
@@ -140,12 +140,12 @@ export default <Locale>{
         search: 'Search',
     },
     home: {
-        cookieWarning: "UniCovoit uses cookies. To learn more, see our {privacyPolicy}",
+        cookieWarning: "Cova uses cookies. To learn more, see our {privacyPolicy}",
         title: 'Where to next?',
         advantages: [
             {
                 title: 'Low Prices',
-                content: 'UniCovoit helps keep prices low by not taking any commission on rides.'
+                content: 'Cova helps keep prices low by not taking any commission on rides.'
             },
             {
                 title: 'Safety',
@@ -153,12 +153,12 @@ export default <Locale>{
             },
             {
                 title: 'Transparency',
-                content: 'UniCovoit is designed for students, by students. The application\'s source code is fully open.'
+                content: 'Cova is designed for students, by students. The application\'s source code is fully open.'
             }
         ],
         presentation: {
-            title: 'What is UniCovoit?',
-            description: `<p> UniCovoit is a carpooling platform for students. </p>
+            title: 'What is Cova?',
+            description: `<p> Cova is a carpooling platform for students. </p>
                         <p>The goal is to encourage carpooling between students, without taking any commission on the price of the ride. </p>`
         },
     },
@@ -310,7 +310,7 @@ export default <Locale>{
     },
     verify: {
         title: 'Verification',
-        subtitle: 'Before you can use UniCovoit, you must verify that you are a student.',
+        subtitle: 'Before you can use Cova, you must verify that you are a student.',
         description: `We use your student email address to verify your student profile.
                     This verification is renewed every year.{0}
                     We will not use this address in the future.`,
@@ -323,7 +323,7 @@ export default <Locale>{
         correctEmail: 'Correct the email address?',
         emailAlreadyUsed: 'This email address is already used by another account.',
         emailNotRecognised: `The format of your email address is not recognised.
-                    Your university may not yet be supported by UniCovoit.`,
+                    Your university may not yet be supported by Cova.`,
         success: 'Student status verified!',
     },
 }

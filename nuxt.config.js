@@ -114,6 +114,23 @@ export default {
                 additionalHeaders: true
             }
         ],
+        [
+            '@nuxtjs/firebase',
+            {
+                config: {
+                    apiKey: 'AIzaSyDvkE_xccWc6cAxmW_uv4A6rRT6c4fDF_Q',
+                    authDomain: 'cova-entrep.firebaseapp.com',
+                    projectId: 'cova-entrep',
+                    storageBucket: 'cova-entrep.appspot.com',
+                    messagingSenderId: '357888968218',
+                    appId: '1:357888968218:web:a96b889327b7ec7705b3a3',
+                    measurementId: 'G-M9Q4E28WGS'
+                },
+                services: {
+                    auth: true // Just as example. Can be any other service.
+                }
+            }
+        ],
         // https://www.npmjs.com/package/@nuxt/content
         "@nuxt/content",
         // https://i18n.nuxtjs.org/
@@ -278,6 +295,9 @@ export default {
 
     // Build Configuration: https://go.nuxtjs.dev/config-build
     build: {
-        extractCSS: true
+        extractCSS: true,
+        transpile: [
+            'defu'
+        ]
     }
 }
