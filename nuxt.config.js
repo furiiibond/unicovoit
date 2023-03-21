@@ -2,7 +2,7 @@ import colors from 'vuetify/lib/util/colors'
 
 const PLAUSIBLE_DOMAIN = 'plausible.finxol.io'
 const DESCRIPTION = 'Plateforme de covoiturage entre étudiants'
-const TITLE = 'UniCovoit'
+const TITLE = 'Cova'
 const DOMAIN = 'unicovoit.fr'
 const URL = `https://${DOMAIN}`
 const BANNER = `${URL}/icon.png`
@@ -295,9 +295,13 @@ export default {
 
     // Build Configuration: https://go.nuxtjs.dev/config-build
     build: {
+        extend(config, ctx) {},
         extractCSS: true,
         transpile: [
             'defu'
         ]
+    },
+    server: {
+        host: "0.0.0.0"
     }
 }
