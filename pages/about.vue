@@ -65,23 +65,8 @@
                 >
                     {{ $t("aboutPage.thankYouDonors") }} :
                 </span>
-                Raven,
-                Tanguy,
-                Liam,
-                Azgulute,
-                François,
-                Elouann
+                Célie BENEDIK, Pierric BERTIN, Jean-Camille LAPIERRE, Kamila SEKULA
                 <br>
-                <span
-                    class="body-2"
-                >
-                    {{ $t('aboutPage.makeADonation') }} <a
-                        class="text--secondary"
-                        href="https://ko-fi.com/unicovoit"
-                        rel="noopener noreferrer"
-                        target="_blank"
-                    >Ko-Fi</a>.
-                </span>
             </p>
 
             <v-alert

@@ -5,14 +5,14 @@ export default <Locale>{
         content: [
             `Cova est une initiative étudiante pour encourager le covoiturage entre étudiants.`,
             `Ce service est basé sur la confiance entre les étudiants.
-            Les paiements ne sont pas effectués via Cova, mais directement entre le passager et le conducteur.`,
+            `,
             `Les {termsOfUse} et {privacyPolicy} sont disponibles sur le site web.`,
             `Pour nous contacter, veuillez utiliser le {contactForm}.`,
-            `Créé par {finxol}.`,
-            `Logo par {logoDesigner}.`,
+            `Créé par JC.`,
+            `Logo par Céli.`,
         ],
-        thankYouDonors: 'Merci aux donateurs',
-        makeADonation: 'Faites un don pour soutenir le projet sur',
+        thankYouDonors: 'Merci aux étudiants',
+        makeADonation: '',
         unicovoitIsGreen: "Cova est plus propre que {cleanerThan}% des pages testées par",
     },
     activityPage: {
@@ -84,14 +84,14 @@ export default <Locale>{
                 title: "Comment fonctionne Cova ?",
                 content: `Avec Cova, vous pouvez proposer vos trajets, qu'ils soient courts ou longs, à d'autres étudiants afin de couvrir vos frais.
                         Vous pouvez également trouver des conducteurs pour vos trajets.<br>
-                        Aucune commission n'est relevée sur le prix du trajet.`
+                          `
             }, {
                 title: "Les utilisateurs sont-ils tous des étudiants ?",
                 content: `Oui. Il est obligatoire de vérifier son statut étudiant avant de faire une réservation ou déposer une annonce.
                         Cette vérification se fait par votre adresse mail étudiante.`
             }, {
                 title: "Quelle forme de paiement est utilisée sur Cova ?",
-                content: `Cova ne prend pas en charge les paiements donc vous devez convenir d'un moyen de paiement avec votre conducteur ou passager.`
+                content: `Sur Cova, les paiements sont effectués en point Cova. Vous pouvez convertir vos points en euros et inversement. En ce moment, 1 point = 0.05€ = 1Km parcouru.`
             }, {
                 title: "Comment puis-je contacter mon conducteur/passager ?",
                 content: `Les coordonnées de chacun seront transmises par Cova au moment de la réservation.`
@@ -100,8 +100,7 @@ export default <Locale>{
                 content: `Non. Les trajets sont réservés aux étudiants, donc vous devez avoir un compte Cova et vérifier votre statut étudiant avant de pouvoir réserver un trajet.`
             }, {
                 title: "Comment est-ce que Cova se finance ?",
-                content: `Cova ne prend aucune commission sur le prix du trajet et ne revend aucune donnée.
-                        Le financement est assuré seulement par des dons. Si vous souhaitez soutenir Cova, vous pouvez le faire sur <a href="https://ko-fi.com/cova" target="_blank" rel="noopener noreferrer">Ko-Fi</a>.`
+                content: `Cova prend une commission de 20% de commissions pour les conducteurs qui souhaitent récupérer leurs points en euros. Et 10% pour les passagers`
             }, {
                 title: "Comment traitez-vous mes données ?",
                 content: `Les informations concernant les trajets et les utilisateurs sont stockées sur les serveurs d'Cova en Allemagne. Ces informations ne sont pas communiquées à des tiers.<br>
@@ -153,13 +152,13 @@ export default <Locale>{
             },
             {
                 title: 'Transparence',
-                content: 'Cova est conçu pour des étudiants, par des étudiants. Le code de l\'application est entièrement ouvert.'
+                content: 'Cova est conçu pour des étudiants, par des étudiants. Nous vous disons tout ce que vous devez savoir sur les frais de covoiturage.'
             }
         ],
         presentation: {
             title: 'Cova, c\'est quoi ?',
             description: `<p> Cova est une plateforme de covoiturage pour les étudiants. </p>
-                        <p>L'objectif est d'encourager le covoiturage entre étudiants, sans prendre de commission sur le prix du trajet. </p>`
+                        <p>L'objectif est d'encourager le covoiturage entre étudiants dans la ville de Valence. </p>`
         },
     },
     login: {
